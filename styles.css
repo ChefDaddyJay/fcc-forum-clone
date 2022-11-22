@@ -103,6 +103,7 @@ table {
   border-collapse: collapse;
 }
 
+th,
 th button {
   font-size: 22px;
   font-weight: 300;
