@@ -137,6 +137,14 @@ function displayCategories() {
       categories.set(topic.category_id, 1);
     }
   });
+  categoryBtns.innerHTML += `
+  <button
+       name="filter-button" 
+       value="0"
+       class="all-topics"
+       >
+       All (${forumData.topic_list.topics.length})
+  </button>`;
   // create the buttons
   categories.forEach((value, key) => {
     categoryBtns.innerHTML += `

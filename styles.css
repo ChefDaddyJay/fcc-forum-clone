@@ -57,6 +57,10 @@ nav {
   margin-top: 0.28rem;
 }
 
+.all-topics {
+  background: var(--primary-color);
+}
+
 .career {
   background: var(--salmon);
 }
